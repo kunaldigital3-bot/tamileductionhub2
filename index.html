@@ -1,10 +1,9 @@
 <!DOCTYPE html>
-<html lang="gu">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ગુજરાતી Trader</title>
-
+    <title>Day Trader</title>
     <script>
     !function(f,b,e,v,n,t,s)
     {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
@@ -14,112 +13,119 @@
     t.src=v;s=b.getElementsByTagName(e)[0];
     s.parentNode.insertBefore(t,s)}(window, document,'script',
     'https://connect.facebook.net/en_US/fbevents.js');
-    fbq('init', '1288988033161237');
+    fbq('init', '1857563861534400'); /* New Pixel ID updated */
     fbq('track', 'PageView');
     </script>
     <noscript><img height="1" width="1" style="display:none"
-    src="https://www.facebook.com/tr?id=1288988033161237&ev=PageView&noscript=1"
+    src="https://www.facebook.com/tr?id=1857563861534400&ev=PageView&noscript=1"
     /></noscript>
     <style>
         body {
-            font-family: 'Segoe UI', Arial, sans-serif;
-            background-color: #0f172a;
-            color: white;
             margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(180deg, #050a30 0%, #000c66 50%, #7ec8e3 100%);
+            height: 100vh;
             display: flex;
             justify-content: center;
             align-items: center;
-            min-height: 100vh;
-        }
-        .card {
-            background: #1e293b;
-            padding: 40px 20px;
-            border-radius: 20px;
-            text-align: center;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
-            max-width: 400px;
-            width: 90%;
-            border: 1px solid #334155;
-        }
-        .profile-img {
-            width: 110px;
-            height: 110px;
-            border-radius: 50%;
-            border: 3px solid #22c55e;
-            margin-bottom: 20px;
-            object-fit: cover;
-        }
-        h1 {
-            font-size: 28px;
-            margin: 10px 0;
-            color: #ffffff;
-        }
-        .sub-text {
-            font-size: 16px;
-            color: #94a3b8;
-            margin-bottom: 25px;
-            line-height: 1.6;
-        }
-        .btn {
-            display: block;
-            background: linear-gradient(135deg, #22c55e 0%, #16a34a 100%);
             color: white;
+            text-align: center;
+        }
+
+        .card {
+            background-color: #111827;
+            width: 90%;
+            max-width: 400px;
+            padding: 40px 20px;
+            border-radius: 30px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+        }
+
+        .logo-container {
+            width: 120px;
+            height: 120px;
+            margin: 0 auto 20px;
+            border-radius: 50%;
+            background: #fff;
+            padding: 5px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+        }
+
+        .logo-container img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 50%;
+        }
+
+        h1 {
+            font-size: 24px;
+            margin-bottom: 25px;
+            font-weight: 700;
+        }
+
+        .info-list {
+            list-style: none;
+            padding: 0;
+            margin-bottom: 30px;
+            font-size: 16px;
+            line-height: 2;
+        }
+
+        .btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(90deg, #7cf0e5, #49dcb1);
+            color: #000;
             text-decoration: none;
-            padding: 18px;
-            border-radius: 12px;
+            padding: 15px;
+            border-radius: 40px;
             font-weight: bold;
             font-size: 20px;
-            transition: all 0.3s ease;
-            box-shadow: 0 4px 15px rgba(34, 197, 94, 0.3);
+            margin-bottom: 25px;
+            gap: 10px;
         }
-        .btn:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 6px 20px rgba(34, 197, 94, 0.4);
+
+        .footer-text {
+            font-size: 13px;
+            color: #9ca3af;
         }
-        .footer {
-            margin-top: 35px;
-            padding-top: 20px;
-            border-top: 1px solid #334155;
-            font-size: 14px;
-            color: #64748b;
-        }
-        .kunal-ads-wrapper {
-            margin-top: 10px;
-        }
-        .kunal-ads {
-            color: #fbbf24; /* Attractive Gold/Yellow color */
+
+        .footer-text a {
+            color: #49dcb1;
             text-decoration: none;
-            font-weight: 800;
-            font-size: 15px;
-            letter-spacing: 0.5px;
-            padding: 5px 12px;
-            border: 2px solid #fbbf24;
-            border-radius: 50px;
-            display: inline-block;
-            transition: all 0.3s;
-        }
-        .kunal-ads:hover {
-            background: #fbbf24;
-            color: #1e293b;
-            box-shadow: 0 0 15px rgba(251, 191, 36, 0.5);
         }
     </style>
 </head>
 <body>
 
 <div class="card">
-    <img src="https://via.placeholder.com/110" alt="ગુજરાતી Trader" class="profile-img">
-    
-    <h1>ગુજરાતી Trader</h1>
-    <p class="sub-text">શેરબજારમાં દરરોજ પ્રોફિટ મેળવવા અને સચોટ ટ્રેડિંગ ટિપ્સ માટે આજે જ અમારી ઓફિશિયલ ચેનલ જોઈન કરો.</p>
-    
-    <a href="https://t.me/+jE7sEbzR23gwM2U1" class="btn">ચેનલમાં જોડાવા વિનંતી કરો</a>
-    
-    <div class="footer">
-        <div>Ads managed by</div>
-        <div class="kunal-ads-wrapper">
-            <a href="https://t.me/+jE7sEbzR23gwM2U1" class="kunal-ads">KUNAL ADS</a>
-        </div>
+    <div class="logo-container">
+        <img src="logo.png" alt="Logo">
+    </div>
+
+    <h1>3 POINT TRADER</h1>
+
+    <div class="info-list">
+        <div>📊 NIFTY · BANKNIFTY · SENSEX</div>
+        <div>✅ DAILY CALLS AVAILABLE</div>
+        <div>⭐ 95% Accuracy</div>
+        <div>🎯 6+ Years Experience</div>
+    </div>
+
+    <a href="https://t.me/+XTZpHxU_5MdmODk1" class="btn">
+        <img src="https://cdn-icons-png.flaticon.com/512/2111/2111646.png" width="25" alt="TG Logo">
+        Join Telegram
+    </a>
+
+    <div class="footer-text">
+        Contact Only For Ads Setup 👑<br>
+        Ads Managed By <a href="https://t.me/+jE7sEbzR23gwM2U1">Kunal</a>
     </div>
 </div>
 
